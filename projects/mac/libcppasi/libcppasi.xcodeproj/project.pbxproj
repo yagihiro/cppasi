@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B77FCE41AAE0610006CE78E /* cppasi.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B77FCE11AAE0610006CE78E /* cppasi.h */; };
+		9B77FCE51AAE0610006CE78E /* cppasi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B77FCE31AAE0610006CE78E /* cppasi.cpp */; };
+		9B77FCEA1AAE09D4006CE78E /* libevent.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B77FCE91AAE09D3006CE78E /* libevent.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B77FCD71AAE057B006CE78E /* liblibcppasi.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = liblibcppasi.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B77FCE11AAE0610006CE78E /* cppasi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cppasi.h; sourceTree = "<group>"; };
+		9B77FCE31AAE0610006CE78E /* cppasi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cppasi.cpp; sourceTree = "<group>"; };
+		9B77FCE61AAE06A5006CE78E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../../../.gitignore; sourceTree = "<group>"; };
+		9B77FCE71AAE06A5006CE78E /* Doxyfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Doxyfile; path = ../../../Doxyfile; sourceTree = "<group>"; };
+		9B77FCE81AAE06A5006CE78E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../README.md; sourceTree = "<group>"; };
+		9B77FCE91AAE09D3006CE78E /* libevent.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libevent.dylib; path = ../../../../../../../usr/local/lib/libevent.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B77FCD41AAE057B006CE78E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B77FCEA1AAE09D4006CE78E /* libevent.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B77FCCE1AAE057B006CE78E = {
+			isa = PBXGroup;
+			children = (
+				9B77FCDE1AAE0610006CE78E /* cppasi */,
+				9B77FCD81AAE057B006CE78E /* Products */,
+				9B77FCE61AAE06A5006CE78E /* .gitignore */,
+				9B77FCE71AAE06A5006CE78E /* Doxyfile */,
+				9B77FCE81AAE06A5006CE78E /* README.md */,
+				9B77FCE91AAE09D3006CE78E /* libevent.dylib */,
+			);
+			sourceTree = "<group>";
+		};
+		9B77FCD81AAE057B006CE78E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B77FCD71AAE057B006CE78E /* liblibcppasi.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B77FCDE1AAE0610006CE78E /* cppasi */ = {
+			isa = PBXGroup;
+			children = (
+				9B77FCDF1AAE0610006CE78E /* include */,
+				9B77FCE21AAE0610006CE78E /* src */,
+			);
+			name = cppasi;
+			path = ../../../cppasi;
+			sourceTree = "<group>";
+		};
+		9B77FCDF1AAE0610006CE78E /* include */ = {
+			isa = PBXGroup;
+			children = (
+				9B77FCE01AAE0610006CE78E /* cppasi */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		9B77FCE01AAE0610006CE78E /* cppasi */ = {
+			isa = PBXGroup;
+			children = (
+				9B77FCE11AAE0610006CE78E /* cppasi.h */,
+			);
+			path = cppasi;
+			sourceTree = "<group>";
+		};
+		9B77FCE21AAE0610006CE78E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9B77FCE31AAE0610006CE78E /* cppasi.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9B77FCD51AAE057B006CE78E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B77FCE41AAE0610006CE78E /* cppasi.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9B77FCD61AAE057B006CE78E /* libcppasi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B77FCDB1AAE057B006CE78E /* Build configuration list for PBXNativeTarget "libcppasi" */;
+			buildPhases = (
+				9B77FCD31AAE057B006CE78E /* Sources */,
+				9B77FCD41AAE057B006CE78E /* Frameworks */,
+				9B77FCD51AAE057B006CE78E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libcppasi;
+			productName = libcppasi;
+			productReference = 9B77FCD71AAE057B006CE78E /* liblibcppasi.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B77FCCF1AAE057B006CE78E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = yagihiro.net;
+				TargetAttributes = {
+					9B77FCD61AAE057B006CE78E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 9B77FCD21AAE057B006CE78E /* Build configuration list for PBXProject "libcppasi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B77FCCE1AAE057B006CE78E;
+			productRefGroup = 9B77FCD81AAE057B006CE78E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B77FCD61AAE057B006CE78E /* libcppasi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B77FCD31AAE057B006CE78E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B77FCE51AAE0610006CE78E /* cppasi.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9B77FCD91AAE057B006CE78E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9B77FCDA1AAE057B006CE78E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9B77FCDC1AAE057B006CE78E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9B77FCDD1AAE057B006CE78E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B77FCD21AAE057B006CE78E /* Build configuration list for PBXProject "libcppasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B77FCD91AAE057B006CE78E /* Debug */,
+				9B77FCDA1AAE057B006CE78E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B77FCDB1AAE057B006CE78E /* Build configuration list for PBXNativeTarget "libcppasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B77FCDC1AAE057B006CE78E /* Debug */,
+				9B77FCDD1AAE057B006CE78E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B77FCCF1AAE057B006CE78E /* Project object */;
+}
